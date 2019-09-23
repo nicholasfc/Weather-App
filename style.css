@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  background-color: rgb(120, 211, 241);
+}
+
+#search-container {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#search-container input {
+  width: 200px;
+}
+
+.weather-container {
+  width: 30%;
+  margin: 30vh auto;
+  box-shadow: 1px 1px 5px black;
+  background-color: bisque;
+  visibility: hidden;
+}
+
+#weather-main {
+  display: flex;
+}
+
+#temperature,
+#weather-description--header {
+  margin: 15px;
+}
+
+#document-icon-img {
+  height: 100%;
+}
+
+#city-header {
+  text-align: center;
+}
+
+.bottom-dtls {
+  display: block;
+  text-align: right;
+  padding: 0 15px 10px 0;
+}
