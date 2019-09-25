@@ -24,7 +24,7 @@ function init(resultFromServer) {
   let weatherIcon = document.getElementById("document-icon-img");
   let weatherContainer = document.getElementById("weatherContainer");
 
-  weatherIcon.src = `http://openweathermap.org/img/w/${resultFromServer.weather[0].icon}.png`;
+  weatherIcon.src = `https://openweathermap.org/img/w/${resultFromServer.weather[0].icon}.png`;
   let resultDescription = resultFromServer.weather[0].description;
   weatherDescriptionHeader.innerText =
     resultDescription.charAt(0).toUpperCase() + resultDescription.slice(1);
